@@ -1,5 +1,7 @@
 # ignore everything in the root except the "wp-content" directory.
+/*
 !wp-content/
+!README.md
 
 # ignore everything in the "wp-content" directory, except:
 # "mu-plugins", "themes" directory
@@ -20,3 +22,6 @@ node_modules/
 *.log
 *.sql
 *.sqlite
+
+# os-specific
+.DS_Store
